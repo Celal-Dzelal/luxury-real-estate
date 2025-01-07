@@ -1,2 +1,17 @@
 @import "./mixins.scss";
 @import "./variables.scss";
+
+.navbar {
+  background-color: $rich-blue;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  .container {
+    justify-content: center !important;
+    .title {
+      color: $gold-color;
+      font-family: $font-family;
+      font-size: 3rem;
+    }
+  }
+}

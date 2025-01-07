@@ -3,7 +3,8 @@
 
 .navbar {
   background-color: $rich-blue;
-  position: sticky;
+  // opacity: 0.9;
+  position: static;
   top: 0;
   z-index: 1020;
   .container {

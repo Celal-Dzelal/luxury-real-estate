@@ -1,2 +1,29 @@
 @import "./mixins.scss";
 @import "./variables.scss";
+
+.container {
+  .item {
+    .img {
+      height: 85vh !important;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(50%);
+    }
+  }
+  .caption {
+    .title1 {
+      color: $rich-yellow;
+      text-shadow: 3px 3px 3px $petrol-blue;
+      font-family: $secondary-font-family;
+      font-weight: bold;
+      font-size: 2.3rem;
+      letter-spacing: 2px;
+    }
+    .title2 {
+      @extend .title1;
+    }
+    .title3 {
+      @extend .title1;
+    }
+  }
+}

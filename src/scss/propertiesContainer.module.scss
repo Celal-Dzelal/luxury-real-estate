@@ -1,2 +1,7 @@
 @import "./mixins.scss";
 @import "./variables.scss";
+
+.container {
+  margin: 2rem 0;
+  width: 95vw;
+}

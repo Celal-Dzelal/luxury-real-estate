@@ -2,6 +2,24 @@
 @import "./variables.scss";
 
 .contColumn {
-  // border: 2px solid red;
   margin: auto;
+  text-align: center;
+  box-shadow: 5px 5px 5px $gold-color;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  background-color: $rich-blue;
+  .cards {
+    margin: 1rem auto;
+    .body {
+      justify-items: center;
+      width: 18rem !important;
+      .title {
+        width: 16rem !important;
+        line-height: 2rem;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+      }
+    }
+  }
 }

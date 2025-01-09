@@ -2,7 +2,7 @@ import React from "react";
 import InputStyle from "../../scss/searchStyle.module.scss";
 import { Form, Button } from "react-bootstrap";
 
-function SearchInputs() {
+function SearchInputs({ types, locations, rooms }) {
   return (
     <div className={InputStyle.container}>
       <Form.Select
@@ -12,8 +12,11 @@ function SearchInputs() {
         <option value="" disabled selected>
           Type
         </option>
-        <option value="1">Type</option>
-        <option value="2">Type</option>
+        {types.map((type, index) => (
+          <option key={index} value={type}>
+            {type}
+          </option>
+        ))}
       </Form.Select>
       <Form.Select
         aria-label="Default select example"
@@ -22,8 +25,11 @@ function SearchInputs() {
         <option value="" disabled selected>
           City
         </option>
-        <option value="1">City</option>
-        <option value="2">City</option>
+        {locations.map((location, index) => (
+          <option key={index} value={location}>
+            {location}
+          </option>
+        ))}
       </Form.Select>
       <Form.Select
         aria-label="Default select example"
@@ -32,8 +38,11 @@ function SearchInputs() {
         <option value="" disabled selected>
           Rooms
         </option>
-        <option value="1">Rooms</option>
-        <option value="2">Rooms</option>
+        {rooms.map((room, index) => (
+          <option key={index} value={room}>
+            {room}
+          </option>
+        ))}
       </Form.Select>
       <Button className={InputStyle.formButton}>Search</Button>
     </div>

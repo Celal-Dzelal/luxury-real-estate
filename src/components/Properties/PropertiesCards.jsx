@@ -13,10 +13,10 @@ function PropertiesCards({
 }) {
   return (
     <Col style={{ width: "20rem" }} className={PropCardsStyle.contColumn}>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={extImage} />
-        <Card.Body>
-          <Card.Title>
+      <Card style={{ width: "18rem" }} className={PropCardsStyle.cards}>
+        <Card.Img variant="top" src={extImage} className={PropCardsStyle.img} />
+        <Card.Body className={PropCardsStyle.body}>
+          <Card.Title className={PropCardsStyle.title}>
             {type} at {location}
           </Card.Title>
           <Card.Text>
@@ -34,10 +34,6 @@ function PropertiesCards({
             <span>Price:</span> {price} €
           </ListGroup.Item>
         </ListGroup>
-        <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
       </Card>
     </Col>
   );

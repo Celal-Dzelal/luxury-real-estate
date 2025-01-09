@@ -1,0 +1,31 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+.container {
+  @include display;
+  height: auto;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-family: $secondary-font-family;
+  background-color: $gold-color;
+  color: $petrol-blue;
+  flex-wrap: wrap;
+  .copyright {
+    width: 20rem;
+    text-align: center;
+  }
+  .brand {
+    font-size: 2rem;
+    font-family: $font-family;
+    width: 20rem;
+    text-align: center;
+  }
+  .address {
+    line-height: 0.5;
+    width: 20rem;
+    text-align: center;
+    h6 {
+      font-weight: bold;
+    }
+  }
+}

@@ -12,8 +12,8 @@ function PropertiesCards({
   intImage,
 }) {
   return (
-    <Col style={{ width: "23rem" }}>
-      <Card style={{ width: "20rem" }}>
+    <Col style={{ width: "20rem" }} className={PropCardsStyle.contColumn}>
+      <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src={extImage} />
         <Card.Body>
           <Card.Title>

@@ -2,6 +2,11 @@
 @import "./variables.scss";
 
 .container {
-  margin: 2rem 0;
-  width: 95vw;
+  // border: 2px solid red;
+  margin-top: 2rem;
+  .containerRow {
+    // border: 2px solid blue;
+    align-items: center;
+    margin: auto;
+  }
 }

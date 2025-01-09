@@ -7,7 +7,7 @@ import { Container, Row } from "react-bootstrap";
 function PropertiesContainer() {
   return (
     <Container className={PropContStyle.container}>
-      <Row xs={2} md={4} lg={6}>
+      <Row xs={2} md={4} lg={6} className={PropContStyle.containerRow}>
         {luxuryHomes.map((home) => (
           <PropertiesCards
             key={home.id}

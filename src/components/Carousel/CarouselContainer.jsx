@@ -21,7 +21,7 @@ function CarouselContainer() {
         <Carousel.Item className={CarouselStyle.item}>
           <img
             className={`d-block w-100 ${CarouselStyle.img}`}
-            src="/img/slide-image1.png"
+            src="/img/slide-image1.jpeg"
             alt="First slide"
           />
           <Carousel.Caption className={CarouselStyle.caption}>
@@ -33,7 +33,7 @@ function CarouselContainer() {
         <Carousel.Item className={CarouselStyle.item}>
           <img
             className={`d-block w-100 ${CarouselStyle.img}`}
-            src="/img/slide-image2.png"
+            src="/img/slide-image2.jpeg"
             alt="Second slide"
           />
           <Carousel.Caption className={CarouselStyle.caption}>
@@ -45,7 +45,7 @@ function CarouselContainer() {
         <Carousel.Item className={CarouselStyle.item}>
           <img
             className={`d-block w-100 ${CarouselStyle.img}`}
-            src="/img/slide-image3.png"
+            src="/img/slide-image3.jpeg"
             alt="Third slide"
           />
           <Carousel.Caption className={CarouselStyle.caption}>

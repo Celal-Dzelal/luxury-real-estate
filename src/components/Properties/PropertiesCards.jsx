@@ -46,9 +46,6 @@ function PropertiesCards({
             <Card.Title className={PropCardsStyle.title}>
               {type} at {location}
             </Card.Title>
-            <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ab!
-            </Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
             <ListGroup.Item>

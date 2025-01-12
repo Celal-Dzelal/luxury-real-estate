@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Luxury Real Estate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project is a luxurious real estate website that allows users to explore and filter premium properties. It includes an intuitive design, with a modern UI and interactive features like modals and dynamic property listings.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+### 1. General Layout
 
-### `npm start`
+- This demo showcases the general layout of the website, including the structure of the main sections and how content is displayed on different devices. The layout adjusts responsively based on the screen size.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![General Layout Demo](./public/gif/Demo1.gif)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Buttons
 
-### `npm test`
+- This demo highlights the functionality of the buttons used throughout the website. It demonstrates their styling, hover effects, and how they trigger actions like opening modals or navigating to different sections.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Buttons Demo](./public/gif/Demo2.gif)
 
-### `npm run build`
+### 3. Modal and Appointment Button
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- In this demo, you can see how the modal works. It is triggered by the Appointment button, which opens a modal window for the user to interact with. This feature is used to book appointments or interact with other related content.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Modal and Appointment Button Demo](./public/gif/Demo3.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Responsive Design
 
-### `npm run eject`
+- This demo shows how the website's design adapts to different screen sizes. The layout adjusts seamlessly from desktop to mobile views, ensuring a smooth and user-friendly experience on all devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Responsive Design Demo](./public/gif/Demo4.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features & Functionality
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Property Listings:** A list of high-end properties displayed dynamically based on the user's filter selection (e.g., the number of rooms). Each property includes detailed information such as price, location, sales agent, description, and images.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Filter Functionality:** Users can filter the properties displayed by selecting a specific number of rooms.
 
-## Learn More
+- **Modal Window:** When users click on a property, a modal window opens to display additional details such as a larger image, description, and specific details of the property.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Appointment Button:** Each property has an "Appointment" button which triggers a modal window, allowing users to schedule a meeting with the sales agent for further inquiries or viewings.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Image Carousel:** A carousel component to showcase the images of each property, providing users with a more interactive way of viewing property details.
 
-### Code Splitting
+- **Dynamic Data Fetching:** The property data, including images and descriptions, are dynamically fetched and displayed in the application. The luxuryHomes data is managed and rendered dynamically based on user inputs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- **React:** For building the user interface and managing state across components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **React Bootstrap:** For responsive grid and layout components like Container, Row, etc.
 
-### Making a Progressive Web App
+- **SCSS:** For advanced styling, leveraging mixins and variables to streamline design and maintainability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **JavaScript:** For dynamic functionality like filtering properties, handling modal states, and managing user interactions.
 
-### Advanced Configuration
+### Features in Detail
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Modal Component:** Each property card is interactive, and upon clicking a property, a modal window opens that provides more detailed information about the property. The modal includes:
 
-### Deployment
+  1. A larger image of the property.
+  2. Detailed description and property specifications.
+  3. Buttons for scheduling an appointment with the sales agent.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Appointment Button:** In the modal, there is an Appointment button that allows users to schedule a meeting with the sales agent. This button is styled with a transition effect to make it interactive.
 
-### `npm run build` fails to minify
+- **Dynamic Data:** Data for the properties (like images, price, description, etc.) are stored in a JSON-like format and rendered dynamically in the app. The properties can be filtered based on the rooms field using React state management (useState).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Filter Function:** The app allows users to filter properties by the number of rooms. The selectedRoom state determines which properties to show based on user selection. This filter works seamlessly with the dynamic data display.
+
+- **Image Hover Effects:** The property images come with hover effects that zoom in for a better view, giving a more engaging user experience.
+
+### Installation
+
+1. **Clone the repository:**
+
+```
+git clone https://github.com/your-username/luxury-real-estate-website.git
+```
+
+2. **Navigate to the project directory:**
+
+```
+cd luxury-real-estate-website
+```
+
+3. **Install dependencies:**
+
+```
+npm/pnpm/etc.. install
+```
+
+4. **Run the application:**
+
+```
+npm/pnpm/etc. start
+```
+
+### Folder Structure
+
+```
+/luxury-real-estate-website
+|-- /public
+|-- /src
+    |-- /components
+        |-- Header
+        |-- Carousel
+        |-- Properties
+        |-- Footer
+    |-- /scss
+    |-- App.js
+    |-- App.scss
+    |-- index.js
+```
+
+#### Contributing
+
+- Feel free to fork this repository, create branches, and submit pull requests to improve the project. Any suggestions or improvements are welcome.
+
+#### License
+
+- This project is licensed under the MIT License.

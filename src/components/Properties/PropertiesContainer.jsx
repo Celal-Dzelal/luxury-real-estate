@@ -18,6 +18,9 @@ function PropertiesContainer() {
             location={home.location}
             extImage={home.images.exterior}
             intImage={home.images.interior}
+            salesAgent={home.salesAgent}
+            description={home.description}
+            listing={home.listingDate}
           />
         ))}
       </Row>

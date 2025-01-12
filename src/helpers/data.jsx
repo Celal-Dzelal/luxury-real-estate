@@ -7,6 +7,9 @@ export const luxuryHomes = [
     price: 3500000,
     location: "Paris, France",
     listingDate: "05-01-2025",
+    salesAgent: "Marie Dubois",
+    description:
+      "A charming Parisian apartment with a stunning view of the Eiffel Tower.",
     images: {
       exterior: "img/paris-apartment-exterior.jpeg",
       interior: "img/paris-apartment-interior.jpeg",
@@ -20,6 +23,9 @@ export const luxuryHomes = [
     price: 12500000,
     location: "Zurich, Switzerland",
     listingDate: "05-01-2025",
+    salesAgent: "Lukas Meier",
+    description:
+      "A spacious detached house in Zurich with a large garden and mountain views.",
     images: {
       exterior: "img/zurich-familyhouse-exterior.jpeg",
       interior: "img/zurich-familyhouse-interior.jpeg",
@@ -33,6 +39,9 @@ export const luxuryHomes = [
     price: 25000000,
     location: "Barcelona, Spain",
     listingDate: "04-01-2025",
+    salesAgent: "Carlos García",
+    description:
+      "An elegant villa in Barcelona with a private pool and modern design.",
     images: {
       exterior: "img/barcelona-villa-exterior.jpeg",
       interior: "img/barcelona-villa-interior.jpeg",
@@ -46,6 +55,9 @@ export const luxuryHomes = [
     price: 2349000,
     location: "Rome, Italy",
     listingDate: "06-01-2025",
+    salesAgent: "Giulia Rossi",
+    description:
+      "A cozy apartment in Rome, perfect for city living near historical landmarks.",
     images: {
       exterior: "img/rome-apartment-exterior.jpeg",
       interior: "img/rome-apartment-interior.jpeg",
@@ -59,6 +71,9 @@ export const luxuryHomes = [
     price: 75000000,
     location: "Bavaria, Germany",
     listingDate: "06-01-2025",
+    salesAgent: "Hans Müller",
+    description:
+      "A majestic castle in Bavaria surrounded by breathtaking landscapes.",
     images: {
       exterior: "img/bavaria-castle-exterior.jpeg",
       interior: "img/bavaria-castle-interior.jpeg",
@@ -72,6 +87,9 @@ export const luxuryHomes = [
     price: 65000000,
     location: "Budapest, Hungary",
     listingDate: "06-01-2025",
+    salesAgent: "Eva Kovács",
+    description:
+      "A historic castle in Budapest with modern amenities and panoramic views.",
     images: {
       exterior: "img/budapest-castle-exterior.jpeg",
       interior: "img/budapest-castle-interior.jpeg",
@@ -85,6 +103,9 @@ export const luxuryHomes = [
     price: 16800000,
     location: "Amsterdam, Netherlands",
     listingDate: "26-12-2024",
+    salesAgent: "Johan de Vries",
+    description:
+      "A stylish apartment in Amsterdam with canalside views and high ceilings.",
     images: {
       exterior: "img/amsterdam-apartment-exterior.jpeg",
       interior: "img/amsterdam-apartment-interior.jpeg",
@@ -98,6 +119,9 @@ export const luxuryHomes = [
     price: 89000000,
     location: "Prague, Czech Republic",
     listingDate: "06-01-2025",
+    salesAgent: "Petr Novák",
+    description:
+      "A luxurious villa in Prague with a private garden and elegant interiors.",
     images: {
       exterior: "img/prague-villa-exterior.jpeg",
       interior: "img/prague-villa-interior.jpeg",
@@ -111,6 +135,9 @@ export const luxuryHomes = [
     price: 49000000,
     location: "Vienna, Austria",
     listingDate: "06-01-2025",
+    salesAgent: "Anna Fischer",
+    description:
+      "An exclusive penthouse in Vienna offering stunning city skyline views.",
     images: {
       exterior: "img/vienna-penthouse-exterior.jpeg",
       interior: "img/vienna-penthouse-interior.jpeg",
@@ -124,6 +151,9 @@ export const luxuryHomes = [
     price: 20000000,
     location: "Brussels, Belgium",
     listingDate: "06-01-2025",
+    salesAgent: "Lucas Dupont",
+    description:
+      "A charming detached house in Brussels with a modern touch and garden.",
     images: {
       exterior: "img/brussel-familyhouse-exterior.jpeg",
       interior: "img/brussel-familyhouse-interior.jpeg",
@@ -137,6 +167,9 @@ export const luxuryHomes = [
     price: 4200000,
     location: "Copenhagen, Denmark",
     listingDate: "06-01-2025",
+    salesAgent: "Freja Nielsen",
+    description:
+      "A bright apartment in Copenhagen with Scandinavian design and comfort.",
     images: {
       exterior: "img/Copenhagen-apartment-exterior.jpeg",
       interior: "img/Copenhagen-apartment-interior.jpeg",
@@ -150,6 +183,9 @@ export const luxuryHomes = [
     price: 60000000,
     location: "Stockholm, Sweden",
     listingDate: "06-01-2025",
+    salesAgent: "Erik Lindberg",
+    description:
+      "An exquisite villa in Stockholm with lakefront access and modern luxuries.",
     images: {
       exterior: "img/Stockholm-villa-exterior.jpeg",
       interior: "img/Stockholm-villa-interior.jpeg",
@@ -163,6 +199,9 @@ export const luxuryHomes = [
     price: 18000000,
     location: "Lisbon, Portugal",
     listingDate: "06-01-2025",
+    salesAgent: "Tiago Silva",
+    description:
+      "A beautiful detached house in Lisbon with a rooftop terrace and ocean views.",
     images: {
       exterior: "img/Lisbon-familyhouse-exterior.jpeg",
       interior: "img/Lisbon-familyhouse-interior.jpeg",
@@ -176,6 +215,9 @@ export const luxuryHomes = [
     price: 3200000,
     location: "Dublin, Ireland",
     listingDate: "06-01-2025",
+    salesAgent: "Aoife Murphy",
+    description:
+      "A spacious apartment in Dublin with contemporary interiors and amenities.",
     images: {
       exterior: "img/dublin-apartment-exterior.jpeg",
       interior: "img/dublin-apartment-interior.jpeg",
@@ -189,6 +231,9 @@ export const luxuryHomes = [
     price: 95000000,
     location: "Lausanne, Switzerland",
     listingDate: "06-01-2025",
+    salesAgent: "Sophie Dubois",
+    description:
+      "A grand castle in Lausanne with a rich history and breathtaking views.",
     images: {
       exterior: "img/Lousanne-castle-exterior.jpeg",
       interior: "img/Lousanne-castle-interior.jpeg",
@@ -202,6 +247,9 @@ export const luxuryHomes = [
     price: 15500000,
     location: "Helsinki, Finland",
     listingDate: "06-01-2025",
+    salesAgent: "Mikko Laine",
+    description:
+      "A modern apartment in Helsinki with smart home features and a balcony.",
     images: {
       exterior: "img/helsinki-apartment-exterior.jpeg",
       interior: "img/helsinki-apartment-interior.jpeg",
@@ -215,6 +263,9 @@ export const luxuryHomes = [
     price: 5500000,
     location: "Warsaw, Poland",
     listingDate: "06-01-2025",
+    salesAgent: "Zofia Kowalska",
+    description:
+      "A luxurious penthouse in Warsaw with panoramic views and modern design.",
     images: {
       exterior: "img/warsaw-penthouse-exterior.jpeg",
       interior: "img/warsaw-penthouse-interior.jpeg",
@@ -228,6 +279,9 @@ export const luxuryHomes = [
     price: 48000000,
     location: "Oslo, Norway",
     listingDate: "06-01-2025",
+    salesAgent: "Olav Hansen",
+    description:
+      "An elegant villa in Oslo with fjord views and a peaceful atmosphere.",
     images: {
       exterior: "img/oslo-villa-exterior.jpeg",
       interior: "img/oslo-villa-interior.jpeg",
@@ -241,6 +295,9 @@ export const luxuryHomes = [
     price: 2500000,
     location: "Sofia, Bulgaria",
     listingDate: "06-01-2025",
+    salesAgent: "Viktor Ivanov",
+    description:
+      "A budget-friendly apartment in Sofia with easy access to the city center.",
     images: {
       exterior: "img/sofia-apartment-exterior.jpeg",
       interior: "img/sofia-apartment-interior.jpeg",
@@ -254,6 +311,9 @@ export const luxuryHomes = [
     price: 28000000,
     location: "Athens, Greece",
     listingDate: "06-01-2025",
+    salesAgent: "Nikos Papadopoulos",
+    description:
+      "A family-friendly detached house in Athens with a large garden and pool.",
     images: {
       exterior: "img/athens-familyhouse-exterior.jpeg",
       interior: "img/athens-familyhouse-interior.jpeg",

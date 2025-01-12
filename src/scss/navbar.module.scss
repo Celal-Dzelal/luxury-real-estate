@@ -9,10 +9,34 @@
   z-index: 10 !important;
   .container {
     justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
     .title {
       color: $gold-color;
       font-family: $font-family;
       font-size: 3rem;
+      padding: 0 !important;
+    }
+    .toggle {
+      border: 2px solid $gold-color;
+      color: $gold-color;
+    }
+    .nav {
+      .buttons {
+        width: 6rem !important;
+        margin: 0.5rem !important;
+        color: $rich-brown;
+        font-family: $font-family;
+        font-weight: bold;
+        padding: 0 !important;
+        font-size: 1.5rem;
+        background-color: $gold-color;
+        border: 2px solid $petrol-blue !important;
+        &:hover {
+          border: 2px solid $euro-blue !important;
+          background-color: $dollar-green;
+        }
+      }
     }
   }
 }

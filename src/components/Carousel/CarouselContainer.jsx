@@ -1,23 +1,16 @@
 import React from "react";
 import CarouselStyle from "../../scss/carousel.module.scss";
 import Carousel from "react-bootstrap/Carousel";
-import SearchInputs from "../Form/SearchInputs";
-import { luxuryHomes } from "../../helpers/data";
 
 function CarouselContainer() {
-  const uniqueTypes = [...new Set(luxuryHomes.map((home) => home.type))];
-  const uniqueLocations = [
-    ...new Set(luxuryHomes.map((home) => home.location)),
-  ];
-  const uniqueRooms = [...new Set(luxuryHomes.map((home) => home.rooms))];
   return (
     <>
-      <SearchInputs
-        types={uniqueTypes}
-        locations={uniqueLocations}
-        rooms={uniqueRooms}
-      />
-      <Carousel data-bs-theme="dark" className={CarouselStyle.container}>
+      <Carousel
+        // fade
+        data-bs-theme="dark"
+        className={CarouselStyle.container}
+        interval={3000}
+      >
         <Carousel.Item className={CarouselStyle.item}>
           <img
             className={`d-block w-100 ${CarouselStyle.img}`}

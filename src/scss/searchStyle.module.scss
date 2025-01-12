@@ -1,39 +1,20 @@
-@import "./mixins.scss";
-@import "./variables.scss";
+// @import "./mixins.scss";
+// @import "./variables.scss";
 
-.container {
-  @include display;
-  gap: 3rem;
-  flex-wrap: wrap;
-  background-color: transparent;
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 10%;
-  width: auto;
-  .formType {
-    background-color: transparent;
-    width: 14rem;
-    font-family: $secondary-font-family;
-    font-weight: bold;
-    color: $gold-color;
-    text-shadow: 2px 2px 5px $rich-blue;
-    &:hover {
-      background-color: $rich-blue !important;
-      color: $rich-yellow !important;
-    }
-    &:active {
-      color: $gold-color !important;
-    }
-  }
-  .formCity {
-    @extend .formType;
-  }
-  .formRooms {
-    @extend .formType;
-  }
-  .formButton {
-    @extend .formType;
-    border-color: white;
-  }
-}
+// .navbar {
+//   border: 2px solid red;
+//   background-color: transparent !important;
+//   position: absolute !important;
+//   top: 35% !important;
+//   left: 30%;
+//   z-index: 2;
+//   .container {
+//     border: 2px solid purple;
+//     .nav {
+//       border: 2px solid green;
+//       .buttons {
+//         border: 2px solid blue;
+//       }
+//     }
+//   }
+// }

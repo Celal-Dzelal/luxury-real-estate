@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropCardsStyle from "../../scss/propertiesCards.module.scss";
-import { Card, ListGroup, Col, Alert } from "react-bootstrap";
+import { Card, ListGroup, Col } from "react-bootstrap";
 // import CardModal from "../Modals/CardModal";
 import { Button, Modal } from "react-bootstrap";
 

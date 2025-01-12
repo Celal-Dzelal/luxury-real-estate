@@ -45,6 +45,7 @@
     "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.26.3",
+    "@craco/craco": "^7.1.0",
     "@testing-library/jest-dom": "^6.6.3"
   }
 }
